@@ -11,7 +11,6 @@ RUN chmod 760 -R /data/ && chown tpot:tpot -R /data/
 ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 
-EXPOSE 8080
 CMD ["/usr/bin/supervisord"]
 
 
