@@ -1,6 +1,6 @@
 # Introduction 
 
-The central system of the eMobility honeynet is based on a slightly edited version of the SteVe project to meet the goals of the honeynet.
+The central system of the eMobility honeynet is based on a slightly edited version of the SteVe project.
 
 SteVe (https://github.com/RWTH-i5-IDSG/steve) was developed at the RWTH Aachen University and means Steckdosenverwaltung, namely socket administration in German. The aim of SteVe is to support the deployment and popularity of electric mobility, so it is easy to install and to use. SteVe provides basic functions for the administration of charge points, user data, and RFID cards for user authentication and was tested successfully in operation.
 
@@ -31,6 +31,8 @@ SteVe is considered as an open platform to implement, test and evaluate novel id
 # How to use?
 
 Compile and build an archive ready to run: `mvn package`
+
 Start the application: `java -jar steve-***.jar`
+
 Access the Web interface: `http://<your-server-ip>:<port>/steve/manager`
 
