@@ -1,6 +1,3 @@
-![Central System](src/main/resources/webapp/static/images/logo_steve_i5.png)
-
-
 # Introduction 
 The central system of the eMobility honeynet is based on a slightly edited version of the SteVe project to meet the goals of the honeynet.
 
