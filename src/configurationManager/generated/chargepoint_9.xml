@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ChargePoint>
+<ChargePointWebServiceIPv4>10.0.1.18:9090</ChargePointWebServiceIPv4>
+<CentralSystemWebServiceURL>http://10.0.1.5:8080/centralsystem/services/CentralSystemServiceOCPP15?wsdl</CentralSystemWebServiceURL>
+<CentralSystemWebServiceURI>urn://Ocpp/Cs/2012/06/</CentralSystemWebServiceURI>
+<CentralSystemWebServiceName>CentralSystemService</CentralSystemWebServiceName>
+<NumberOfConnectors>2</NumberOfConnectors>
+<ChargeBoxIdentity>hoeherweg_111_duesseldorf</ChargeBoxIdentity>
+<ChargePointModel>V03</ChargePointModel>
+<ChargePointVendor>Siemens</ChargePointVendor>
+<ChargePointSerialNumber>2835</ChargePointSerialNumber>
+<ChargeBoxSerialNumber>2374</ChargeBoxSerialNumber>
+<FirmwareVersion>3.10</FirmwareVersion>
+<Iccid>8927603781104335680</Iccid>
+<Imsi>26205240117</Imsi>
+<MeterSerialNumber>3092</MeterSerialNumber>
+<MeterType>E2</MeterType>
+</ChargePoint>

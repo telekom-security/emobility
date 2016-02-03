@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ChargePoint>
+<ChargePointWebServiceIPv4>10.0.1.12:9090</ChargePointWebServiceIPv4>
+<CentralSystemWebServiceURL>http://10.0.1.5:8080/centralsystem/services/CentralSystemServiceOCPP15?wsdl</CentralSystemWebServiceURL>
+<CentralSystemWebServiceURI>urn://Ocpp/Cs/2012/06/</CentralSystemWebServiceURI>
+<CentralSystemWebServiceName>CentralSystemService</CentralSystemWebServiceName>
+<NumberOfConnectors>1</NumberOfConnectors>
+<ChargeBoxIdentity>moselstr_27_neuss</ChargeBoxIdentity>
+<ChargePointModel>V01</ChargePointModel>
+<ChargePointVendor>MENNEKES</ChargePointVendor>
+<ChargePointSerialNumber>3897</ChargePointSerialNumber>
+<ChargeBoxSerialNumber>1180</ChargeBoxSerialNumber>
+<FirmwareVersion>2.40</FirmwareVersion>
+<Iccid>8927603201083322361</Iccid>
+<Imsi>26207745754</Imsi>
+<MeterSerialNumber>564</MeterSerialNumber>
+<MeterType>E1</MeterType>
+</ChargePoint>
