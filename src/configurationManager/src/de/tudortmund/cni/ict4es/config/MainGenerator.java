@@ -24,7 +24,7 @@ import de.tudortmund.cni.ict4es.config.utils.DatabaseUtils;
 
 public class MainGenerator {
 
-	private final static String CONFIG_BASE_DIR = "config/";
+	private final static String CONFIG_BASE_DIR = "properties/";
 	private final static String CONFIG_FILE_NAME = "generator_configuration.properties";
 
 	private GeneratorConfiguration generatorConfiguration = null;

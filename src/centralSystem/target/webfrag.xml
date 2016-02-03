@@ -1,0 +1,452 @@
+
+<!--
+Automatically created by Apache Tomcat JspC.
+Place this fragment in the web.xml before all icon, display-name,
+description, distributable, and context-param elements.
+-->
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.signin_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.signin_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views._00_002dcp_002dsingle_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views._00_002dcp_002dsingle_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.taskResult_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.taskResult_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.tasks_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.tasks_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views._00_002derror_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views._00_002derror_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views._00_002dheader_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views._00_002dheader_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.about_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.about_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.ocppJsonStatus_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.ocppJsonStatus_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.heartbeats_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.heartbeats_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.settings_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.settings_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op15.UnlockConnector_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op15.UnlockConnector_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op15.UpdateFirmware_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op15.UpdateFirmware_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op15.CancelReservation_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op15.CancelReservation_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op15.SendLocalList_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op15.SendLocalList_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op15.ChangeAvailability_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op15.ChangeAvailability_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op15.ChangeConfiguration_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op15.ChangeConfiguration_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op15.ReserveNow_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op15.ReserveNow_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op15.Reset_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op15.Reset_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op15.DataTransfer_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op15.DataTransfer_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op15.ClearCache_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op15.ClearCache_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op15.GetLocalListVersion_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op15.GetLocalListVersion_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op15.GetConfiguration_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op15.GetConfiguration_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op15.GetDiagnostics_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op15.GetDiagnostics_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op15.RemoteStopTransaction_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op15.RemoteStopTransaction_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op15.RemoteStartTransaction_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op15.RemoteStartTransaction_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.connectorStatus_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.connectorStatus_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.data_002dman.users_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.data_002dman.users_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.data_002dman.reservations_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.data_002dman.reservations_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.data_002dman.chargepoints_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.data_002dman.chargepoints_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.data_002dman.transactions_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.data_002dman.transactions_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views._00_002dop_002dbind_002derrors_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views._00_002dop_002dbind_002derrors_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.home_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.home_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views._00_002dcp_002dmultiple_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views._00_002dcp_002dmultiple_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op12.UnlockConnector_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op12.UnlockConnector_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op12.UpdateFirmware_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op12.UpdateFirmware_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op12.ChangeAvailability_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op12.ChangeAvailability_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op12.ChangeConfiguration_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op12.ChangeConfiguration_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op12.Reset_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op12.Reset_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op12.ClearCache_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op12.ClearCache_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op12.GetDiagnostics_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op12.GetDiagnostics_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op12.RemoteStopTransaction_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op12.RemoteStopTransaction_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.op12.RemoteStartTransaction_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.op12.RemoteStartTransaction_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views._00_002dfooter_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views._00_002dfooter_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.views.home_005fbackup_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.views.home_005fbackup_jsp</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.signin_jsp</servlet-name>
+        <url-pattern>/views/signin.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views._00_002dcp_002dsingle_jsp</servlet-name>
+        <url-pattern>/views/00-cp-single.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.taskResult_jsp</servlet-name>
+        <url-pattern>/views/taskResult.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.tasks_jsp</servlet-name>
+        <url-pattern>/views/tasks.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views._00_002derror_jsp</servlet-name>
+        <url-pattern>/views/00-error.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views._00_002dheader_jsp</servlet-name>
+        <url-pattern>/views/00-header.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.about_jsp</servlet-name>
+        <url-pattern>/views/about.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.ocppJsonStatus_jsp</servlet-name>
+        <url-pattern>/views/ocppJsonStatus.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.heartbeats_jsp</servlet-name>
+        <url-pattern>/views/heartbeats.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.settings_jsp</servlet-name>
+        <url-pattern>/views/settings.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op15.UnlockConnector_jsp</servlet-name>
+        <url-pattern>/views/op15/UnlockConnector.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op15.UpdateFirmware_jsp</servlet-name>
+        <url-pattern>/views/op15/UpdateFirmware.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op15.CancelReservation_jsp</servlet-name>
+        <url-pattern>/views/op15/CancelReservation.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op15.SendLocalList_jsp</servlet-name>
+        <url-pattern>/views/op15/SendLocalList.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op15.ChangeAvailability_jsp</servlet-name>
+        <url-pattern>/views/op15/ChangeAvailability.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op15.ChangeConfiguration_jsp</servlet-name>
+        <url-pattern>/views/op15/ChangeConfiguration.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op15.ReserveNow_jsp</servlet-name>
+        <url-pattern>/views/op15/ReserveNow.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op15.Reset_jsp</servlet-name>
+        <url-pattern>/views/op15/Reset.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op15.DataTransfer_jsp</servlet-name>
+        <url-pattern>/views/op15/DataTransfer.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op15.ClearCache_jsp</servlet-name>
+        <url-pattern>/views/op15/ClearCache.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op15.GetLocalListVersion_jsp</servlet-name>
+        <url-pattern>/views/op15/GetLocalListVersion.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op15.GetConfiguration_jsp</servlet-name>
+        <url-pattern>/views/op15/GetConfiguration.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op15.GetDiagnostics_jsp</servlet-name>
+        <url-pattern>/views/op15/GetDiagnostics.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op15.RemoteStopTransaction_jsp</servlet-name>
+        <url-pattern>/views/op15/RemoteStopTransaction.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op15.RemoteStartTransaction_jsp</servlet-name>
+        <url-pattern>/views/op15/RemoteStartTransaction.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.connectorStatus_jsp</servlet-name>
+        <url-pattern>/views/connectorStatus.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.data_002dman.users_jsp</servlet-name>
+        <url-pattern>/views/data-man/users.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.data_002dman.reservations_jsp</servlet-name>
+        <url-pattern>/views/data-man/reservations.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.data_002dman.chargepoints_jsp</servlet-name>
+        <url-pattern>/views/data-man/chargepoints.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.data_002dman.transactions_jsp</servlet-name>
+        <url-pattern>/views/data-man/transactions.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views._00_002dop_002dbind_002derrors_jsp</servlet-name>
+        <url-pattern>/views/00-op-bind-errors.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.home_jsp</servlet-name>
+        <url-pattern>/views/home.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views._00_002dcp_002dmultiple_jsp</servlet-name>
+        <url-pattern>/views/00-cp-multiple.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op12.UnlockConnector_jsp</servlet-name>
+        <url-pattern>/views/op12/UnlockConnector.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op12.UpdateFirmware_jsp</servlet-name>
+        <url-pattern>/views/op12/UpdateFirmware.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op12.ChangeAvailability_jsp</servlet-name>
+        <url-pattern>/views/op12/ChangeAvailability.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op12.ChangeConfiguration_jsp</servlet-name>
+        <url-pattern>/views/op12/ChangeConfiguration.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op12.Reset_jsp</servlet-name>
+        <url-pattern>/views/op12/Reset.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op12.ClearCache_jsp</servlet-name>
+        <url-pattern>/views/op12/ClearCache.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op12.GetDiagnostics_jsp</servlet-name>
+        <url-pattern>/views/op12/GetDiagnostics.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op12.RemoteStopTransaction_jsp</servlet-name>
+        <url-pattern>/views/op12/RemoteStopTransaction.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.op12.RemoteStartTransaction_jsp</servlet-name>
+        <url-pattern>/views/op12/RemoteStartTransaction.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views._00_002dfooter_jsp</servlet-name>
+        <url-pattern>/views/00-footer.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.views.home_005fbackup_jsp</servlet-name>
+        <url-pattern>/views/home_backup.jsp</url-pattern>
+    </servlet-mapping>
+
+<!--
+All session-config, mime-mapping, welcome-file-list, error-page, taglib,
+resource-ref, security-constraint, login-config, security-role,
+env-entry, and ejb-ref elements should follow this fragment.
+-->

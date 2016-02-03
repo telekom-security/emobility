@@ -6,10 +6,9 @@ The configuration manager was mainly developed at the Communication Networks Ins
 
 # Requirements 
 
-1. You need JRE 8.
+You hust need JRE 8.
 
 
 # How to use?
-
-run: `java -cp ./lib/com.mysql.jdbc_5.1.5.jar:./bin de.tudortmund.cni.ict4es.config.MainGenerator`
+Run: `java -cp ./lib/com.mysql.jdbc_5.1.5.jar:./bin de.tudortmund.cni.ict4es.config.MainGenerator`
 
