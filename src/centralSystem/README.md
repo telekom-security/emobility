@@ -1,11 +1,14 @@
-The central system of the eMobility honeynet is based on slightly edited version of the SteVe project to meet the goals of the honeynet.
+![Central System](src/main/resources/webapp/static/images/logo_steve_i5.png)
 
-SteVe was developed at the RWTH Aachen University and means Steckdosenverwaltung, namely socket administration in German. The aim of SteVe is to support the deployment and popularity of electric mobility, so it is easy to install and to use. SteVe provides basic functions for the administration of charge points, user data, and RFID cards for user authentication and was tested successfully in operation.
 
-SteVe is considered as an open platform to implement, test and evaluate novel ideas for electric mobility, like authentication protocols, reservation mechanisms for charge points, and business models for electric mobility. SteVe is distributed under [GPL](LICENSE.txt) and is free to use. If you are going to deploy SteVe we are happy to see the [logo](website/logo/managed-by-steve.pdf) on a charge point.
+# Introduction 
+The central system of the eMobility honeynet is based on a slightly edited version of the SteVe project to meet the goals of the honeynet.
 
-Requirements & Configuration
------
+SteVe (https://github.com/RWTH-i5-IDSG/steve) was developed at the RWTH Aachen University and means Steckdosenverwaltung, namely socket administration in German. The aim of SteVe is to support the deployment and popularity of electric mobility, so it is easy to install and to use. SteVe provides basic functions for the administration of charge points, user data, and RFID cards for user authentication and was tested successfully in operation.
+
+SteVe is considered as an open platform to implement, test and evaluate novel ideas for electric mobility, like authentication protocols, reservation mechanisms for charge points, and business models for electric mobility. SteVe is distributed under [GPL](LICENSE.txt) and is free to use.
+
+# Requirements & Configuration
 
 1. You need JDK 8, Maven and MySQL.
 
@@ -27,8 +30,7 @@ Requirements & Configuration
     GRANT SELECT ON mysql.proc TO 'steve'@'localhost' IDENTIFIED BY 'changeme';
     ```
 
-How to use?
------
+# How to use?
 
 Compile and build an archive ready to run:
 
