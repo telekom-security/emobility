@@ -36,7 +36,6 @@ RUN mkdir /opt/maven/ &&\
 tar xzvf apache-maven-3.3.9-bin.tar.gz -C /opt/maven/ 
 # Compiling the central system
 RUN service mysql start && cd /opt/emobility/src/centralsystem && /opt/maven/apache-maven-3.3.9/bin/mvn package &&  mv /opt/emobility/src/centralsystem/target/CentralSystem-2.0.1.jar /opt/emobility/src/centralsystem/target/CentralSystem.jar
-
 ##
 
 # Register charge points and users at the central system
