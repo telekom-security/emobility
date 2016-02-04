@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ChargePoint>
+<ChargePointWebServiceIPv4>10.0.1.18:9090</ChargePointWebServiceIPv4>
+<CentralSystemWebServiceURL>http://10.0.1.5:8080/steve/services/CentralSystemServiceOCPP15?wsdl</CentralSystemWebServiceURL>
+<CentralSystemWebServiceURI>urn://Ocpp/Cs/2012/06/</CentralSystemWebServiceURI>
+<CentralSystemWebServiceName>CentralSystemService</CentralSystemWebServiceName>
+<NumberOfConnectors>1</NumberOfConnectors>
+<ChargeBoxIdentity>hoeherweg_111_duesseldorf</ChargeBoxIdentity>
+<ChargePointModel>V04</ChargePointModel>
+<ChargePointVendor>RWE</ChargePointVendor>
+<ChargePointSerialNumber>4798</ChargePointSerialNumber>
+<ChargeBoxSerialNumber>1459</ChargeBoxSerialNumber>
+<FirmwareVersion>4.21</FirmwareVersion>
+<Iccid>8927603624764864335</Iccid>
+<Imsi>26201890326</Imsi>
+<MeterSerialNumber>162</MeterSerialNumber>
+<MeterType>E2</MeterType>
+</ChargePoint>

@@ -13,15 +13,15 @@ ifconfig eth0:10 10.0.1.20
 ifconfig eth0:11 10.0.1.21
 ifconfig eth0:12 10.0.1.5
 sleep 5
-java -jar /opt/emobility/src/chargepoint/ChargingPoint.jar -c /opt/emobility/conf/chargepoint_1.xml -b true -s true &
-java -jar /opt/emobility/src/chargepoint/ChargingPoint.jar -c /opt/emobility/conf/chargepoint_2.xml -b true -s true &
-java -jar /opt/emobility/src/chargepoint/ChargingPoint.jar -c /opt/emobility/conf/chargepoint_3.xml -b true -s true &
-java -jar /opt/emobility/src/chargepoint/ChargingPoint.jar -c /opt/emobility/conf/chargepoint_4.xml -b true -s true &
-java -jar /opt/emobility/src/chargepoint/ChargingPoint.jar -c /opt/emobility/conf/chargepoint_5.xml -b true -s true &
-java -jar /opt/emobility/src/chargepoint/ChargingPoint.jar -c /opt/emobility/conf/chargepoint_6.xml -b true -s true &
-java -jar /opt/emobility/src/chargepoint/ChargingPoint.jar -c /opt/emobility/conf/chargepoint_7.xml -b true -s true &
-java -jar /opt/emobility/src/chargepoint/ChargingPoint.jar -c /opt/emobility/conf/chargepoint_8.xml -b true -s true &
-java -jar /opt/emobility/src/chargepoint/ChargingPoint.jar -c /opt/emobility/conf/chargepoint_9.xml -b true -s true &
-java -jar /opt/emobility/src/chargepoint/ChargingPoint.jar -c /opt/emobility/conf/chargepoint_10.xml -b true -s true &
-java -jar /opt/emobility/src/chargepoint/ChargingPoint.jar -c /opt/emobility/conf/chargepoint_11.xml -b true -s true & 
+java -jar /opt/emobility/src/chargepoint/target/ChargePoint.jar -c /opt/emobility/conf/chargepoint_1.xml -b true -s true &
+java -jar /opt/emobility/src/chargepoint/target/ChargePoint.jar -c /opt/emobility/conf/chargepoint_2.xml -b true -s true &
+java -jar /opt/emobility/src/chargepoint/target/ChargePoint.jar -c /opt/emobility/conf/chargepoint_3.xml -b true -s true &
+java -jar /opt/emobility/src/chargepoint/target/ChargePoint.jar -c /opt/emobility/conf/chargepoint_4.xml -b true -s true &
+java -jar /opt/emobility/src/chargepoint/target/ChargePoint.jar -c /opt/emobility/conf/chargepoint_5.xml -b true -s true &
+java -jar /opt/emobility/src/chargepoint/target/ChargePoint.jar -c /opt/emobility/conf/chargepoint_6.xml -b true -s true &
+java -jar /opt/emobility/src/chargepoint/target/ChargePoint.jar -c /opt/emobility/conf/chargepoint_7.xml -b true -s true &
+java -jar /opt/emobility/src/chargepoint/target/ChargePoint.jar -c /opt/emobility/conf/chargepoint_8.xml -b true -s true &
+java -jar /opt/emobility/src/chargepoint/target/ChargePoint.jar -c /opt/emobility/conf/chargepoint_9.xml -b true -s true &
+java -jar /opt/emobility/src/chargepoint/target/ChargePoint.jar -c /opt/emobility/conf/chargepoint_10.xml -b true -s true &
+java -jar /opt/emobility/src/chargepoint/target/ChargePoint.jar -c /opt/emobility/conf/chargepoint_11.xml -b true -s true & 
 

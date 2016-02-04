@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Configurations>
+	<ConfigItem key="MeterValueSampleInterval" readonly="false">
+		<Value>60</Value>
+	</ConfigItem>
+	<ConfigItem key="BlinkRepeat" readonly="true">
+		<Value>3</Value>
+	</ConfigItem>
+	<ConfigItem key="ResetRetries" readonly="false">
+		<Value>2</Value>
+	</ConfigItem>
+	<ConfigItem key="LightIntensity" readonly="false">
+		<Value>90</Value>
+	</ConfigItem>
+	<ConfigItem key="HeartBeatInterval" readonly="false">
+		<Value>600</Value>
+	</ConfigItem>
+	<ConfigItem key="ConnectionTimeOut" readonly="false">
+		<Value>90</Value>
+	</ConfigItem>
+	<ConfigItem key="ClockAlignedDataInterval" readonly="false">
+		<Value>3600</Value>
+	</ConfigItem>
+	<ConfigItem key="MeterValuesSampledData" readonly="false">
+		<Value />
+	</ConfigItem>
+	<ConfigItem key="MeterValuesAlignedData" readonly="false">
+		<Value />
+	</ConfigItem>
+	<ConfigItem key="StopTxnSampledData" readonly="false">
+		<Value />
+	</ConfigItem>
+	<ConfigItem key="StopTxnAlignedData" readonly="false">
+		<Value />
+	</ConfigItem>
+</Configurations>
