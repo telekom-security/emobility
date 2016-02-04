@@ -6,7 +6,7 @@ This repository contains the necessary files to create a *dockerized* version of
 
 The `Dockerfile` contains the blueprint for the dockerized eMobility and will be used to setup the docker image.  
 
-The `configs` directory comprises all necessary files to configure the charge points and the simulated user transactions. All important data is stored in `/data/eMobility/.
+The `conf` directory comprises all necessary files to configure the charge points and the simulated user transactions. All important data is stored in `/data/eMobility/.
 
 The `supervisord.conf` is used to start eMobility under supervision of supervisord. 
 
