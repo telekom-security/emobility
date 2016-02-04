@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <ChargePoint>
 <ChargePointWebServiceIPv4>10.0.1.13:9090</ChargePointWebServiceIPv4>
-<CentralSystemWebServiceURL>http://10.0.1.5:8080/centralsystem/services/CentralSystemServiceOCPP15?wsdl</CentralSystemWebServiceURL>
+<CentralSystemWebServiceURL>http://10.0.1.5:8080/steve/services/CentralSystemServiceOCPP15?wsdl</CentralSystemWebServiceURL>
 <CentralSystemWebServiceURI>urn://Ocpp/Cs/2012/06/</CentralSystemWebServiceURI>
 <CentralSystemWebServiceName>CentralSystemService</CentralSystemWebServiceName>
 <NumberOfConnectors>3</NumberOfConnectors>
 <ChargeBoxIdentity>franz_schuetz_platz_meerbusch</ChargeBoxIdentity>
 <ChargePointModel>V04</ChargePointModel>
-<ChargePointVendor>MENNEKES</ChargePointVendor>
-<ChargePointSerialNumber>660</ChargePointSerialNumber>
-<ChargeBoxSerialNumber>1329</ChargeBoxSerialNumber>
-<FirmwareVersion>4.08</FirmwareVersion>
-<Iccid>8927603433627582352</Iccid>
-<Imsi>26202786228</Imsi>
-<MeterSerialNumber>1395</MeterSerialNumber>
+<ChargePointVendor>Siemens</ChargePointVendor>
+<ChargePointSerialNumber>3552</ChargePointSerialNumber>
+<ChargeBoxSerialNumber>4738</ChargeBoxSerialNumber>
+<FirmwareVersion>8.70</FirmwareVersion>
+<Iccid>8927603824500528322</Iccid>
+<Imsi>26206315260</Imsi>
+<MeterSerialNumber>1987</MeterSerialNumber>
 <MeterType>E2</MeterType>
 </ChargePoint>
