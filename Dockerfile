@@ -47,9 +47,6 @@ RUN cd service mysql start && cd /opt/emobility/src/configurationmanager && java
 # Create directories, setup user, groups and configs
 RUN addgroup --gid 2000 tpot && \
     adduser --system --no-create-home --shell /bin/bash --uid 2000 --disabled-password --disabled-login --gid 2000 tpot && \
-    mkdir /opt/emobility/conf
-COPY configs/* /opt/emobility/conf/
-RUN chmod 760 -R /data/ && chown tpot:tpot -R /data/
 ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 

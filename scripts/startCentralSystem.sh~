@@ -1,0 +1,4 @@
+#!/bin/bash
+/etc/init.d/mysql restart
+sleep 5
+java -jar /opt/emobility/src/centralsystem/CentralSystem.jar &

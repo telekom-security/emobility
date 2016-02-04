@@ -1,0 +1,6 @@
+#!/bin/bash
+/home/steve/eMobility/startCentralSystem.sh 
+sleep 60
+/home/steve/eMobility/startChargingPoints.sh 
+sleep 5
+/home/steve/eMobility/startLog.sh 
