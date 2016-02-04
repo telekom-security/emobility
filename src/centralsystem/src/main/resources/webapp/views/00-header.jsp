@@ -42,7 +42,6 @@
                         </ul>
                     </li>
                     <li><a href="/steve/manager/settings">SETTINGS</a></li>
-                    <li><a href="/steve/manager/log">LOG</a></li>
                     <li><a href="/steve/manager/about">ABOUT</a></li>
                     <li><a href="/steve/manager/signout">SIGN OUT</a></li>
                 </ul>

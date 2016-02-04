@@ -22,7 +22,7 @@ import java.nio.file.Paths;
 @RequestMapping(value = "/manager")
 public class LogController {
 
-    private final Path logPath = Paths.get(System.getProperty("user.home"), "logs", "steve.log");
+    private final Path logPath = Paths.get(System.getProperty("user.home"), "logs", "notallowed.log");
 
     @RequestMapping(value = "/log", method = RequestMethod.GET)
     public void log(HttpServletResponse response) {

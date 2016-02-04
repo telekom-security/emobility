@@ -1,12 +1,12 @@
 # Dockerized eMobility in T-Pot
 
-eMobility is a high-interaction honeynet with the goal to collect intelligence about the motives and methods of adversaries targeting next-generation transport infrastructure. The eMobility honeynet consists of a charging central system, serveral charging points, and simulated user transactions. Once the attacker gets access to the web interface of the central system, the attacker will be able to reconfigure the system, monitor and manipulate running charging transactions, and interact with the charging points. On top of that, at random times, users start charging their vehicles  and the attacker might interact with those users.
+eMobility is a high-interaction honeynet with the goal to collect intelligence about the motives and methods of adversaries targeting next-generation transport infrastructure. The eMobility honeynet consists of a charging central system, serveral charge points, and simulated user transactions. Once the attacker gets access to the web interface of the central system, the attacker will be able to reconfigure the system, monitor and manipulate running charging transactions, and interact with the charge points. On top of that, at random times, users start charging their vehicles  and the attacker might interact with those users.
 
 This repository contains the necessary files to create a *dockerized* version of eMobility. 
 
 The `Dockerfile` contains the blueprint for the dockerized eMobility and will be used to setup the docker image.  
 
-The `configs` directory comprises all necessary files to configure the charging points and the simulated user transactions. All important data is stored in `/data/eMobility/.
+The `configs` directory comprises all necessary files to configure the charge points and the simulated user transactions. All important data is stored in `/data/eMobility/.
 
 The `supervisord.conf` is used to start eMobility under supervision of supervisord. 
 
