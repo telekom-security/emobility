@@ -1,6 +1,6 @@
 #!/bin/bash
-/home/steve/eMobility/startCentralSystem.sh 
+/opt/emobility/scripts/startCentralSystem.sh 
 sleep 60
-/home/steve/eMobility/startChargePoints.sh 
+/opt/emobility/scripts/startChargePoints.sh 
 sleep 5
-/home/steve/eMobility/startLog.sh 
+/opt/emobility/scripts/startLog.sh 

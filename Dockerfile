@@ -10,7 +10,7 @@ RUN apt-get update -y && \
 ENV DEBIAN_FRONTEND noninteractive
 
 # Install packages
-RUN apt-get install -y supervisor python git python-twisted python-pycryptopp python-pyasn1 python-zope.interface tcpdump
+RUN apt-get install -y supervisor python git python-twisted python-pycryptopp python-pyasn1 python-zope.interface tcpdump expect-dev
 
 # Installing and setting up mysql 
 RUN apt-get -y install mysql-server-5.6
