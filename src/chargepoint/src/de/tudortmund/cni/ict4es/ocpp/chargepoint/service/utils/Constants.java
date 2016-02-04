@@ -20,7 +20,7 @@ public interface Constants {
 
 	// Charge Point Configuration Paths and Files
 
-	public static final String BASE_CONFIG_DIR = "/data/eMobility/conf/";
+	public static final String BASE_CONFIG_DIR = "/opt/emobility/conf/";
 	public static final String CP_INFO = "chargepoint_info.xml";
 	public static final String CP_CONFIGURATION = "configuration.xml";
 	public static final String CP_LOCAL_AUTHORISATION_LIST = "local_authorisation_list.xml";

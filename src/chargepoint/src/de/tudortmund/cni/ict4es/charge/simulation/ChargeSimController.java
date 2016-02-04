@@ -23,7 +23,7 @@ import de.tudortmund.cni.ict4es.ocpp.chargepoint.service.data.User;
 
 public class ChargeSimController implements Runnable {
 
-	private final static String CONFIG_BASE_DIR = "/data/eMobility/conf/";
+	private final static String CONFIG_BASE_DIR = "/opt/emobility/conf/";
 	private final static String CONFIG_FILE_NAME = "charge_simulation_configuration.properties";
 
 	private ChargeSimControllerConfiguration chargeSimControllerConfiguration = null;
