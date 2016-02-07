@@ -13,7 +13,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get install -y supervisor python git python-twisted python-pycryptopp python-pyasn1 python-zope.interface tcpdump expect-dev wget mysql-server-5.6
 
 # Installing and setting up mysql 
-ADD initDB.sql /tmp/
+ADD scripts/initDB.sql /tmp/
 RUN service mysql start && /usr/bin/mysqladmin -u root password "admin" && /usr/bin/mysql -u root -p"admin" < /tmp/initDB.sql
 
 # Installing Java 8
