@@ -45,6 +45,12 @@ RUN addgroup --gid 2000 tpot && \
     adduser --system --no-create-home --shell /bin/bash --uid 2000 --disabled-password --disabled-login --gid 2000 tpot 
 ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
+# Setup ewsposter
+RUN apt-get install -y python-lxml python-mysqldb python-requests git && \
+    git clone https://github.com/rep/hpfeeds.git /opt/hpfeeds && cd /opt/hpfeeds && python setup.py install && \
+    git clone https://github.com/armedpot/ewsposter.git /opt/ewsposter && \
+    mkdir -p /opt/ewsposter/spool /opt/ewsposter/log
+
 # Clean up 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && rm /*.gz
 
