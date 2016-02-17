@@ -10,7 +10,7 @@ RUN apt-get update -y && \
 ENV DEBIAN_FRONTEND noninteractive
 
 # Install packages
-RUN apt-get install -y supervisor python git python-twisted python-pycryptopp python-pyasn1 python-zope.interface tcpdump expect-dev wget mysql-server-5.6
+RUN apt-get install -y supervisor python git python-twisted python-pycryptopp python-pyasn1 python-zope.interface tcpdump expect-dev wget at mysql-server-5.6
 
 # Installing and setting up mysql 
 ADD scripts/initDB.sql /tmp/
@@ -52,7 +52,7 @@ RUN apt-get install -y python-lxml python-mysqldb python-requests git && \
     mkdir -p /opt/ewsposter/spool /opt/ewsposter/log
 
 # Clean up 
-RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && rm /*.gz
+RUN mv /opt/emobility/scripts/rc.local /etc/rc.local && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && rm /*.gz
 
 # Start supervisor
 CMD ["/usr/bin/supervisord"]

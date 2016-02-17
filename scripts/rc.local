@@ -10,6 +10,6 @@
 # bits.
 #
 # By default this script does nothing.
-#Restart tcpdump at 12:00 AM (kill it and supervisord will restart it)
+# Restart tcpdump at 12:00 AM (kill it and supervisord will restart it)
 at midnight <<< 'pkill tcpdump'
 exit 0
