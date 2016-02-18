@@ -52,7 +52,7 @@ RUN apt-get install -y python-lxml python-mysqldb python-requests git && \
     mkdir -p /opt/ewsposter/spool /opt/ewsposter/log
 
 # Clean up 
-RUN mv /opt/emobility/scripts/rc.local /etc/rc.local && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && rm /*.gz
+RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && rm /*.gz
 
 # Start supervisor
 CMD ["/usr/bin/supervisord"]
