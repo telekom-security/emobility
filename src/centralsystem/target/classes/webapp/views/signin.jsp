@@ -6,7 +6,7 @@
 	<link rel="icon" href="/steve/static/images/favicon.ico" type="image/x-icon" />
 	<link rel="shortcut icon" href="/steve/static/images/favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" type="text/css" href="/steve/static/css/style.css">
-	<title>Steckdosenverwaltung-Neuss-NRW</title>
+	<title>Steckdosenverwaltung-Neuss-Nord-West</title>
 </head>
 <body>
 <div class="main">

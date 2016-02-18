@@ -14,7 +14,7 @@
     <script type="text/javascript" src="/steve/static/js/jquery-ui.min.js" ></script>
     <script type="text/javascript" src="/steve/static/js/jquery-ui-timepicker-addon.min.js" ></script>
     <script type="text/javascript" src="/steve/static/js/script.js" ></script>
-    <title>Steckdosenverwaltung-Neuss-NRW</title>
+    <title>Steckdosenverwaltung-Neuss-Nord-West</title>
 </head>
 <body>
 <div class="main">

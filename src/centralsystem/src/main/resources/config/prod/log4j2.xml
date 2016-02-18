@@ -7,8 +7,8 @@
 
     <Appenders>
         <RollingRandomAccessFile name="FILE"
-                                 fileName="${sys:user.home}/logs/cs.log"
-                                 filePattern="${sys:user.home}/logs/cs-%d{yyyy-MM-dd}-%i.log.gz"
+                                 fileName="/data/eMobility/log/centralsystem.log"
+                                 filePattern="/data/eMobility/log/centralsystem-%d{yyyy-MM-dd}-%i.log.gz"
                                  immediateFlush="false"
                                  append="true">
             <PatternLayout pattern="${logPattern}"/>
