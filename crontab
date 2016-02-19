@@ -1,0 +1,2 @@
+# Restart logmanager
+0 0 * * *	root	/usr/bin/supervisorctl restart logmanager

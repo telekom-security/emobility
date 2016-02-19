@@ -10,7 +10,7 @@ RUN apt-get update -y && \
 ENV DEBIAN_FRONTEND noninteractive
 
 # Install packages
-RUN apt-get install -y supervisor python git python-twisted python-pycryptopp python-pyasn1 python-zope.interface tcpdump expect-dev wget at mysql-server-5.6
+RUN apt-get install -y supervisor python git python-twisted python-pycryptopp python-pyasn1 python-zope.interface tcpdump expect-dev wget mysql-server-5.6
 
 # Installing and setting up mysql 
 ADD scripts/initDB.sql /tmp/
@@ -44,6 +44,7 @@ RUN service mysql start && cd /opt/emobility/src/configurationmanager && java -c
 RUN addgroup --gid 2000 tpot && \
     adduser --system --no-create-home --shell /bin/bash --uid 2000 --disabled-password --disabled-login --gid 2000 tpot 
 ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+ADD crontab /etc/crontab
 
 # Setup ewsposter
 RUN apt-get install -y python-lxml python-mysqldb python-requests git && \
