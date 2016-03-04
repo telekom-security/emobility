@@ -1,7 +1,7 @@
 # eMobility Dockerfile by MS
 #
 # VERSION 1.0
-FROM ubuntu:14.04.3
+FROM ubuntu:14.04.4
 MAINTAINER msbeiti
 
 # Setup apt
@@ -56,4 +56,4 @@ RUN apt-get install -y python-lxml python-mysqldb python-requests git && \
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && rm /*.gz
 
 # Start supervisor
-CMD ["/usr/bin/supervisord"]
+CMD ["/usr/bin/supervisord","-c","/etc/supervisor/supervisord.conf"]

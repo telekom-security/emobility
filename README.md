@@ -18,3 +18,6 @@ Using upstart, copy the `upstart/eMobility.conf` to `/etc/init/eMobility.conf` a
 
 This will make sure that the docker container is started with the appropriate rights. Further, it autostarts during boot. In the T-Pot setup, some ports are excluded as they need to be reserved for other honeypot daemons running in parallel.
 
+# eMobility Dashboard
+
+![eMobility Dashboard](https://raw.githubusercontent.com/dtag-dev-sec/emobility/master/doc/dashboard.png)
