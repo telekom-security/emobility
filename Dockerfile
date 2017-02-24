@@ -1,7 +1,7 @@
 # eMobility Dockerfile by MS
 #
 # VERSION 16.10
-FROM debian:jessie
+FROM debian:jessie-slim 
 MAINTAINER msbeiti
 
 ENV DEBIAN_FRONTEND noninteractive
@@ -31,7 +31,10 @@ RUN apt-get update -y && \
     update-alternatives --install "/usr/bin/jar" "jar" "/opt/oracleJava/jdk1.8.0_72/bin/jar" 1 && \
 
 # Download the eMobility honeynet from git
-    mkdir /opt/emobility/ && git clone https://github.com/dtag-dev-sec/emobility.git /opt/emobility/ && \
+    mkdir /opt/emobility/ && \
+    mv /root/dist/conf /opt/emobility/ && \
+    mv /root/dist/scripts /opt/emobility/ && \
+    mv /root/dist/src /opt/emobility/ && \
 
 ## Installating of the central system from source code (neccesary to create a.o. all the tables in database)
 # Installing maven
