@@ -1,6 +1,6 @@
 # eMobility Dockerfile by MS
 #
-# VERSION 16.10
+# VERSION 17.06
 FROM debian:jessie-slim 
 MAINTAINER msbeiti
 
@@ -59,12 +59,6 @@ RUN apt-get update -y && \
     adduser --system --no-create-home --shell /bin/bash --uid 2000 --disabled-password --disabled-login --gid 2000 tpot && \
     mv /root/dist/supervisord.conf /etc/supervisor/conf.d/supervisord.conf && \
     mv /root/dist/crontab /etc/crontab && \
-
-# Setup ewsposter
-    apt-get install -y python-lxml python-mysqldb python-requests git && \
-    git clone https://github.com/rep/hpfeeds.git /opt/hpfeeds && cd /opt/hpfeeds && python setup.py install && \
-    git clone https://github.com/armedpot/ewsposter.git /opt/ewsposter && \
-    mkdir -p /opt/ewsposter/spool /opt/ewsposter/log && \
 
 # Clean up 
     rm -rf /root/* && \
