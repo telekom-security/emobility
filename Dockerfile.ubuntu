@@ -1,0 +1,48 @@
+FROM ubuntu:16.04 
+MAINTAINER msbeiti
+
+ENV DEBIAN_FRONTEND noninteractive
+
+# Include dist
+ADD dist/ /root/dist/
+
+# Setup apt
+RUN apt-get update -y && \
+    apt-get upgrade -y && \
+
+# Install packages
+    apt-get install -y cron expect-dev maven mysql-server net-tools openjdk-8-jdk-headless supervisor tcpdump && \
+
+# Move source
+    mv /root/dist/conf /opt/emobility/ && \
+    mv /root/dist/scripts /opt/emobility/ && \
+    mv /root/dist/src /opt/emobility/ && \
+
+# Installing and setting up mysql 
+    mv /root/dist/scripts/initDB.sql /tmp/ && \
+    service mysql start && /usr/bin/mysqladmin -u root password "admin" && /usr/bin/mysql -u root -p"admin" < /tmp/initDB.sql && \
+
+# Compiling the central system
+    service mysql start && \
+    cd /opt/emobility/src/centralsystem && \
+    /usr/bin/mvn package && \
+    mv /opt/emobility/src/centralsystem/target/CentralSystem-2.0.1.jar /opt/emobility/src/centralsystem/target/CentralSystem.jar && \
+
+# Register charge points and users at the central system
+    service mysql start && \
+    cd /opt/emobility/src/configurationmanager && \
+    java -cp ./lib/com.mysql.jdbc_5.1.5.jar:./bin de.tudortmund.cni.ict4es.config.MainGenerator && \
+
+# Create directories, setup user, groups and configs
+    addgroup --gid 2000 tpot && \
+    adduser --system --no-create-home --shell /bin/bash --uid 2000 --disabled-password --disabled-login --gid 2000 tpot && \
+    mv /root/dist/supervisord.conf /etc/supervisor/conf.d/supervisord.conf && \
+    mv /root/dist/crontab /etc/crontab && \
+
+# Clean up 
+    rm -rf /root/* && \
+    apt-get autoremove -y --purge && \
+    apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+# Start supervisor
+CMD ["/usr/bin/supervisord","-c","/etc/supervisor/supervisord.conf"]
