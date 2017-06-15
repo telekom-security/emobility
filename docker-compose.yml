@@ -1,0 +1,20 @@
+version: '2.1'
+
+networks:
+  emobility_local:
+
+services:
+ 
+# Emobility service
+  emobility:
+    container_name: emobility
+    restart: always
+    networks:
+     - emobility_local
+    cap_add:
+     - NET_ADMIN
+    ports:
+     - "8080:8080"
+    image: "dtagdevsec/emobility:1706"
+#    volumes:
+#     - /data/emobility:/data/eMobility
