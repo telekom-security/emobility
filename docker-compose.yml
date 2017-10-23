@@ -4,7 +4,7 @@ networks:
   emobility_local:
 
 services:
- 
+
 # Emobility service
   emobility:
     container_name: emobility
@@ -15,6 +15,6 @@ services:
      - NET_ADMIN
     ports:
      - "8080:8080"
-    image: "dtagdevsec/emobility:1706"
+    image: "dtagdevsec/emobility:1710"
 #    volumes:
 #     - /data/emobility:/data/eMobility
